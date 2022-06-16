@@ -2,7 +2,7 @@ import ReactDom from "react-dom";
 import classes from "./Modal.module.css";
 
 function BackDrop(props) {
-  return <div className={classes.backDrop} />;
+  return <div className={classes.backdrop} />;
 }
 
 function ModalOerlay(props) {

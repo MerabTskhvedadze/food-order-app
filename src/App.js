@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <CartProvider >
+    <CartProvider>
       {isVisible && <Cart onClose={cartUnvisibleHandler} />}
       <Header onVisibleCart={cartVisibleHandler} />
       <main>
